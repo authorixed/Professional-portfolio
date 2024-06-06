@@ -30,3 +30,4 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 [CSS Gradient Helper](https://cssgradient.io) <br>
 [Personal Notes](https://authorixed.github.io/prework-study-guide/) <br>
+[How to Darken an Image](https://dev.to/nazanin_ashrafi/how-to-darken-an-image-with-css-4f5h) <br>
