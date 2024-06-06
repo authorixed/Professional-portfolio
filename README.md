@@ -21,3 +21,12 @@ WHEN I click on the images of the applications <br>
 THEN I am taken to that deployed application <br>
 WHEN I resize the page or view the site on various screens and devices <br>
 THEN I am presented with a responsive layout that adapts to my viewport
+
+# Website
+
+[Click me to visit the site!](https://authorixed.github.io/Professional-portfolio/)
+
+# Code Sources
+
+[CSS Gradient Helper](https://cssgradient.io) <br>
+[Personal Notes](https://authorixed.github.io/prework-study-guide/) <br>
