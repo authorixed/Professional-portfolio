@@ -102,6 +102,7 @@ nav a {
   font-size: 20px;
   text-align: center;
   border-radius: var(--border-radius);
+  flex-wrap: wrap;
 }
 
 .vl2 {
@@ -123,6 +124,7 @@ nav a {
 .imageContainer {
   position: relative;
   text-align: center;
+  flex-wrap: auto;
 }
 
 .imageContainer li {
@@ -157,16 +159,17 @@ nav a {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 30px;
   width: 1200px;
   height: 300px;
   margin: 0 auto;
-  margin-top: -20px;
+  margin-top: -185px;
   margin-left: 430px;
   padding-top: 100px;
-  flex-wrap: wrap;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  flex: auto;
 }
 
 .grid-minibox {
@@ -176,5 +179,80 @@ nav a {
   justify-content: center;
   align-items: center;
   font-size: 2em;
+  height: 170px;
+  flex-wrap: auto;
+}
+
+.grid-item {
+  position: relative;
+}
+
+.grid-item img {
+  display: block;
+  width: 100%;
+  max-height: 140px;
+  border: 5px solid lightblue;
+  transition: filter 0.5s ease;
+  filter: grayscale(10%) brightness(0.5);
+  flex-wrap: wrap;
+}
+
+img {
+  width: 100%;
+  height: var(--hero);
+  object-fit: cover;
+  flex: auto;
+}
+
+
+.grid-item img:hover {
+  filter: none;
+}
+
+
+.image-border {
+  border-left: 2px solid rgb(0, 34, 128);
+  margin-top: -115px;
+  margin-left: 279px;
+  margin-bottom: 0;
+  height: 250px;
+}
+
+.text-block {
+  position: absolute;
+  top: 60%;
+  left: 0;
+  transform: translateY(-50%); 
+  background-color: var(--border-blue); 
+  color: #fff;
+  padding: 5px;
+  width: 15%;
+  line-height: -20px;
+}
+
+
+.contactMe {
+  color: var(--text-blue);
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  padding-left: 120px;
+  padding-top: 150px;
+}
+
+.vl3 {
+  border-left: 2px solid rgb(0, 34, 128);
+  margin-top: 100px;
+  margin-left: 10px;
   height: 200px;
+}
+
+.contactMeShit ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    font-size: 20px;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+  
 }
